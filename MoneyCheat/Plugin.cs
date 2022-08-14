@@ -8,6 +8,13 @@ using System.Threading.Tasks;
 
 namespace MoneyCheat
 {
+    public static class PluginInfo
+    {
+        public const string PLUGIN_NAME = "Money Cheat";
+        public const string PLUGIN_GUID = "io.crazyjackel.github.JustKingMoneyCheat";
+        public const string PLUGIN_VERSION = "1.0.0";
+     }
+
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
     {
